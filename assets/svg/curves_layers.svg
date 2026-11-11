@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+  <defs>
+    <linearGradient id="topBlue" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#8CCBFF" stop-opacity="0.82"/>
+      <stop offset="0.62" stop-color="#A9D9FF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#D9EEFF" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="topPale" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF6FF" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#CDE8FF" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="bottomBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9BD4FF" stop-opacity="0.74"/>
+      <stop offset="0.55" stop-color="#7FC5FF" stop-opacity="0.60"/>
+      <stop offset="1" stop-color="#C5E6FF" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="bottomMid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D8EEFF" stop-opacity="0.86"/>
+      <stop offset="0.52" stop-color="#EAF6FF" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#CDE8FF" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="bottomPale" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9EEFF" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#EAF6FF" stop-opacity="0.90"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper-left layered curves -->
+  <path d="M 390,0 C 329,78 263,137 190,183 C 127,223 63,251 0,274 L 0,0 Z" fill="url(#topBlue)"/>
+  <path d="M 464,0 C 408,92 347,155 269,197 C 176,247 83,271 0,327 L 0,274 C 63,251 127,223 190,183 C 263,137 329,78 390,0 Z" fill="url(#topPale)"/>
+
+  <!-- Lower layered waves: upper blue band -->
+  <path d="M 0,1379 C 116,1408 220,1485 330,1531 C 433,1574 527,1574 626,1530 C 746,1477 830,1397 941,1368 L 941,1430 C 831,1448 745,1515 634,1561 C 527,1606 426,1607 316,1567 C 195,1523 104,1458 0,1444 Z" fill="url(#bottomBlue)"/>
+
+  <!-- Narrow pale separating ribbon -->
+  <path d="M 0,1411 C 112,1435 215,1504 325,1547 C 432,1589 527,1590 633,1549 C 748,1505 837,1437 941,1404 L 941,1422 C 839,1454 750,1523 637,1565 C 529,1606 430,1605 319,1564 C 207,1521 110,1453 0,1430 Z" fill="url(#bottomMid)"/>
+
+  <!-- Lower soft blue sweep -->
+  <path d="M 0,1465 C 110,1459 207,1519 315,1561 C 425,1605 528,1608 639,1567 C 755,1524 844,1469 941,1451 L 941,1672 L 0,1672 Z" fill="url(#bottomPale)"/>
+</svg>
